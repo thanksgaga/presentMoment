@@ -34,24 +34,29 @@ body img{
     padding : 10px;
 }
 
+#login-form {
+    margin-top : 100px;
+} 
+
 #login-form input:first-child {
     border : none;
-    border-bottom: black solid 1px;
+    background-color: rgba(255,255,255,0.6);
     font-size : 50px;
     text-align : center;
 }
 #login-form input:last-child {
-    font-size:30px;
+    font-size:40px;
     border : solid 1px rgba(0,0,0,0.3);
     background-color:rgba(0,0,0,0);
     padding : 2px;
 }
 #greeting{
-    font-size : 30px;
+    font-size : 50px;
     font-style: italic;
     margin-top : 100px;
     background-color : rgba(255,255,255,0.6);
     border-radius: 10px;
+    line-height: 1.5;
     padding : 10px;
     text-align: center;
 }

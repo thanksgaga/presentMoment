@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Present Momentum App by Thanksgaga</title>
+  </head>
+  <body>
+    <div id="weather">
+        <span></span>
+        <span></span>
+      </div>
+   
+    <form class="hidden" id="login-form">
+        <input
+          required
+          maxlength="15"
+          type="text"
+          placeholder="이름을 입력해주세요."
+        />
+        <input type="submit" value="로그인" />
+      </form>
+    <h1 class="hidden" id="greeting"></h1>
+    <h2 id="clock">00:00:00</h2>
+    <form class="hidden" id="todo-form">
+      <input type="text" placeholder="오늘의 할일을 적어주세요." required />
+    </form>
+    <ul id="todo-list"></ul>
+    <div id="quote">
+      <span></span>
+      <span></span>
+    </div>
+    <div id="unsplash">Background photos Photos from <a href="https://unsplash.com/backgrounds?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    </div>
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>
